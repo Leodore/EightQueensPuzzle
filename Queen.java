@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Queen {
 	private static int[] queen;
-	private static int queenNumber;
-	private static int rowNum = 1;
 	
 	public static void queenResult(int number) {
+		queen = new int[number];
+		int rowNum = 1;
 		
 		label:
 		while (rowNum >= 0) {			
